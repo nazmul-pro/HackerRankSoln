@@ -40,6 +40,7 @@ public static void main(String[] args) {
         String b = scan.next();
         scan.close();
         boolean ret = isAnagram(a, b);
+        //output
         System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 }
